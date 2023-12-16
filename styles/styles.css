@@ -13,12 +13,13 @@ body {
 }
 
 header {
-    
+    position: relative;
     color: #000000;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem; /* 20px */
+    z-index: 1;
 }
 
 
@@ -40,8 +41,8 @@ header {
     transform: scale(1.2);
 }
 
-.logo img {
-    max-height: 5rem; /* 50px */
+.logo-img {
+    max-height: 7rem;
 }
 
 nav ul {
@@ -101,7 +102,7 @@ footer {
     width: 50%; /* Adjust the width of the overlay as needed */
     height: 100%;
     background: rgba(0, 0, 0, 0.7); /* Adjust the transparency as needed */
-    z-index: 0;
+    /* z-index: -1; */
     animation: slideIn 2s forwards;
   }
 
