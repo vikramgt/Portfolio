@@ -22,6 +22,9 @@ header {
     z-index: 1;
 }
 
+.navbar {
+    background-color: rgba(105, 104, 104, 0.4);
+}
 
 .link-text{
     color: #000000;
@@ -32,7 +35,7 @@ header {
 }
 
 .nav-link:hover {
-    background-color: rgba(105, 104, 104, 0.3);
+    background-color: rgba(105, 104, 104, 0.5);
 }
 
 .navbar-nav{
@@ -42,7 +45,9 @@ header {
 }
 
 .logo-img {
-    max-height: 7rem;
+    max-height: 3.5rem;
+    transform: scaleX(1.2);
+    margin-bottom: 1.5rem;
 }
 
 nav ul {
@@ -59,9 +64,6 @@ nav a {
     text-decoration: none;
     color: #000000; /* Change the color for the links */
 }
-
-
-
 
 section {
     position: absolute;
@@ -138,11 +140,15 @@ footer {
 .para-style{
     color: white;
     margin-left: 20rem;
-    margin-top: 15rem;
+    margin-top: 0rem;
     text-align: justify;
     font-family: 'Glametrix';
     font-weight: bolder;
-    font-size: 3.8rem;
+    font-size: 4.2rem;
+}
+
+.about {
+    background-color: white;
 }
 
 @font-face {
