@@ -22,9 +22,6 @@ header {
     z-index: 1;
 }
 
-.navbar {
-    background-color: rgba(105, 104, 104, 0.4);
-}
 
 .link-text{
     color: #000000;
@@ -73,7 +70,6 @@ section {
     text-align: center;
     color: white; /* Adjust text color for better visibility on the background */
 }
-
 
 footer {
 
@@ -137,6 +133,12 @@ footer {
     float: right;
 }
 
+.about-style.heading-style {
+    color: #000000;
+    font-size: 3rem;
+    font-family: 'Migae', sans-serif;
+}
+
 .para-style{
     color: white;
     margin-left: 20rem;
@@ -151,6 +153,35 @@ footer {
     background-color: white;
 }
 
+.container-fluid {
+    
+    margin: 20rem 0 0 10rem;
+    padding: 5rem 0;
+}
+
+.about-para-style {
+    font-family: 'Virgilia', sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.left-content {
+    padding: 2rem 2rem 1rem 2rem;
+
+    border-radius: 1rem; /* Add rounded corners */
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5); /* Add a subtle box shadow */
+}
+
+.break {
+    display: block;
+    margin-top: 1em;
+}
+
+.about-image.custom-img{
+    filter: blur(0.5rem);
+    background-color: rgba(0,0,0,0.5);
+}
+
 @font-face {
     font-family: 'Selfworld';
     src: url(../Fonts/Selfworld/Selfworld.otf) format('opentype');
@@ -159,6 +190,16 @@ footer {
 @font-face {
     font-family: 'Glametrix';
     src: url(../Fonts/Glametrix/Glametrix.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Migae';
+    src: url(../Fonts/Migae/Migae.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Virgilia';
+    src: url(../Fonts/Virgilia/Vergilia.ttf) format('opentype');
 }
 
 @media only screen and (min-width: 720px) {
